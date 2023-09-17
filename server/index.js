@@ -8,7 +8,7 @@ import morgan from "morgan";  // HTTP request logger middleware.
 import path from "path";  // Node.js module for working with file paths.
 import helmet from "helmet";  // Middleware for adding security HTTP headers.
 import { fileURLToPath } from "url";  // A utility function for working with file URLs.
-
+import { register } from "controllers/auth.js"; 
 // Get the current filename and dirname using the 'import.meta.url' object.
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
