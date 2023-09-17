@@ -1,1 +1,1 @@
-# socialmdeia-app-MERN-Stack
+# socialmdeia-App-MERN-Stack
